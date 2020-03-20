@@ -1,0 +1,3 @@
+export const apiURL = "http://localhost:8000";
+export const noImage =
+  "https://res.cloudinary.com/teepublic/image/private/s--reKtYmFB--/c_fit,g_north_west,h_582,w_840/co_000000,e_outline:40/co_000000,e_outline:inner_fill:1/co_ffffff,e_outline:40/co_ffffff,e_outline:inner_fill:1/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1574135673/production/designs/6788390_0.jpg";

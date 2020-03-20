@@ -1,0 +1,4 @@
+[
+{ "_id" : { "$oid" : "5e71bd5360d2b73f7c97137d" }, "username" : "user", "password" : "$2b$10$5W9eJuFngWMiNeheIiYgEu9KXTnzvkFKrXopOVn.KlMQSV0HpoajG", "token" : "d5-BEgnSW5WtaPMCW9IE8" },
+{ "_id" : { "$oid" : "5e7339bf4d73a41e0bb7472d" }, "username" : "max", "password" : "$2b$10$U1byvoJOaeHU9klCqTjzR.Ghu27w7vnYLLCrAFCi6WptN/N5q8pxK", "token" : "QVJgZUZOLmjA6RE---ytI" }
+]
