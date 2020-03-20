@@ -46,24 +46,24 @@ class PostPage extends Component {
               <hr />
               <div>
                 <div className="clearfix">
+                {post.image && (
                   <div
-                    style={{
-                      width: "420px",
-                      float: "left",
-                      marginRight: "20px",
-                      padding: "10px",
-                      textAlign: "center"
-                    }}
-                  >
-                    {post.image && (
+                      style={{
+                        width: "420px",
+                        float: "left",
+                        marginRight: "20px",
+                        padding: "10px",
+                        textAlign: "center"
+                      }}
+                    >
                       <img
-                        src={post.image ? path : ""}
+                        src={post.image && path}
                         className="card-img-top text-center"
                         alt={post.title}
                         width="100%"
                       />
-                    )}
-                  </div>
+                    </div>
+                  )}
                   {post.description && (
                     <p className="text-justify px-3">{post.description}</p>
                   )}

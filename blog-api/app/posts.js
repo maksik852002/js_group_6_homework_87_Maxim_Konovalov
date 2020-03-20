@@ -21,7 +21,6 @@ const upload = multer({ storage });
 const router = express.Router();
 
 router.get("/", async (req, res) => {
-  console.log(req.query)
   try {
     const posts = await Post.find().sort({datetime: -1}).limit(50).populate('user', 'username');
     res.send(posts);
@@ -50,7 +49,6 @@ router.post("/", auth, upload.single("image"), async (req, res) => {
     await post.save();
     res.send({ id: post._id });
   } catch (e) {
-    console.log(e)
     res.status(422).send(e);
   }
 });

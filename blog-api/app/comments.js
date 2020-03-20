@@ -13,7 +13,6 @@ router.get("/", async (req, res) => {
     }
     res.send(comments);
   } catch (e) {
-    console.log(e)
     res.status(422).send(e);
   }
 });
